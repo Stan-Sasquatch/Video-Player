@@ -1,0 +1,33 @@
+div > * {
+  vertical-align: top;
+}
+
+.page-container {
+  position: relative;
+  width: 100%;
+  background-color: darkolivegreen;
+  display: inline-block;
+}
+
+nav {
+  width: 100%;
+  height: 2em;
+  background-color: cadetblue;
+}
+
+iframe {
+  padding: 1em;
+  display: inline-block;
+  background-color: coral;
+}
+
+.tags-header * {
+  display: inline-block;
+}
+
+aside {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  background-color: crimson;
+}
