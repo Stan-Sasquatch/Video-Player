@@ -2,32 +2,45 @@ div > * {
   vertical-align: top;
 }
 
-.page-container {
-  position: relative;
-  width: 100%;
-  background-color: darkolivegreen;
+img,
+.suggested-vid-info,
+iframe,
+aside,
+.left-column,
+.tags-header * {
+  padding: 1em;
   display: inline-block;
 }
 
 nav {
   width: 100%;
-  height: 2em;
+  height: 3em;
   background-color: cadetblue;
 }
 
 iframe {
-  padding: 1em;
-  display: inline-block;
   background-color: coral;
 }
 
-.tags-header * {
-  display: inline-block;
-}
-
 aside {
-  display: inline-block;
   width: 30%;
   height: auto;
   background-color: crimson;
+  margin-top: 1em;
+}
+.page-container {
+  width: 100%;
+}
+
+.beneath-video {
+  padding: 1em;
+  width: 654px;
+  background-color: blueviolet;
+  height: 900px;
+}
+.tags-header {
+  background-color: cyan;
+}
+.left-column {
+  margin-left: 4em;
 }
